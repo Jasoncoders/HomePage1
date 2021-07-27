@@ -8,6 +8,7 @@
     <title>HomePage</title>
 </head>
 <body>
+    <script src="app.js"></script>
     <header>
         <h1>--HomePage--</h1>
         <div>
@@ -15,19 +16,19 @@
         <ol>
             <li>
                 <a href="https://www.naver.com" target="_blank" id="naver">NAVER</a>
-                <h5 class="desc">DESCRIPTION</h5>
+                <input type="button" class="desc" onclick="desc('naver')" value="DESCRIPTION"/>
             </li>
             <li>
                 <a href="https://google.com" target="_blank" id="google">GOOGLE</a>
-                <h5 class="desc">DESCRIPTION</h5>
+                <input type="button" class="desc" onclick="desc('google')" value="DESCRIPTION"/>
             </li>
             <li>
                 <a href="https://bing.com" target="_blank" id="bing">BING</a>
-                <h5 class="desc">DESCRIPTION</h5>
+                <input type="button" class="desc" onclick="desc('google')" value="DESCRIPTION"/>
             </li>
-            <!-- TODO:description 기능 구현(onclick) w/JS -->
         </ol>
         </div>
+        <!--TODO:Description 기능 완벽하게 구현-->
     </header>
 </body>
 </html>
