@@ -11,24 +11,29 @@
     <script src="app.js"></script>
     <header>
         <h1>--HomePage--</h1>
+        <input type="button" value="Dark" class="dali" onclick="dark()" />
+        <input type="button" value="light" class="dali" onclick="light()" />
+    </header>
+
+    <main>
         <div>
             <h2>[Normal Search]</h2>
-        <ol>
-            <li>
-                <a href="https://www.naver.com" target="_blank" id="naver">NAVER</a>
-                <input type="button" class="desc" onclick="desc('naver')" value="DESCRIPTION"/>
-            </li>
-            <li>
-                <a href="https://google.com" target="_blank" id="google">GOOGLE</a>
-                <input type="button" class="desc" onclick="desc('google')" value="DESCRIPTION"/>
-            </li>
-            <li>
-                <a href="https://bing.com" target="_blank" id="bing">BING</a>
-                <input type="button" class="desc" onclick="desc('google')" value="DESCRIPTION"/>
-            </li>
-        </ol>
+            <ol>
+                <li>
+                    <a href="https://www.naver.com" target="_blank" id="naver">NAVER</a>
+                    <input type="button" class="desc" onclick="desc('naver')" value="DESCRIPTION"/>
+                </li>
+                <li>
+                    <a href="https://google.com" target="_blank" id="google">GOOGLE</a>
+                    <input type="button" class="desc" onclick="desc('google')" value="DESCRIPTION"/>
+                </li>
+                <li>
+                    <a href="https://bing.com" target="_blank" id="bing">BING</a>
+                    <input type="button" class="desc" onclick="desc('bing')" value="DESCRIPTION"/>
+                </li>
+            </ol>
         </div>
+    </main>
         <!--TODO:Description 기능 완벽하게 구현-->
-    </header>
 </body>
 </html>
