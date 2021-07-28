@@ -12,9 +12,12 @@
     font-weight: bolder;
 }
 .back {
-    color: #385e46;
+    color: #8b17ce;
     font-size: 1.2em;
 }
 .dali {
     font-size: 1.2em;
+}
+body {
+    background-color: #614219;
 }

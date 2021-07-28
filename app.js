@@ -22,3 +22,7 @@ function light() {
     document.body.style.backgroundColor = 'white';
     document.body.style.color = 'black';
 }
+function reset() {
+    document.body.style.backgroundColor = '#614219'
+    document.body.style.color = 'black'
+}
