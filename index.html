@@ -1,5 +1,9 @@
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
@@ -10,33 +14,33 @@
 <body>
     <script src="app.js"></script>
     <header>
-        <h1>--HomePage--</h1>
-        
-        <div id="inputs">
-            <input type="button" value="Dark" class="dali" onclick="dark()" />
-            <input type="button" value="Light" class="dali" onclick="light()" />
-            <input type="button" value="Reset" class="dali" onclick="reset()">
+        <div id="h1">
+            <h1>SearchEngine HomePage</h1>
         </div>
-
     </header>
 
     <main>
-        <div>
-            <h2>[Normal Search]</h2>
-            <ol>
-                <li>
-                    <a href="https://www.naver.com" target="_blank" id="naver">NAVER</a>
-                    <input type="button" class="desc" onclick="desc('naver')" value="DESCRIPTION"/>
-                </li>
-                <li>
-                    <a href="https://google.com" target="_blank" id="google">GOOGLE</a>
-                    <input type="button" class="desc" onclick="desc('google')" value="DESCRIPTION"/>
-                </li>
-                <li>
-                    <a href="https://bing.com" target="_blank" id="bing">BING</a>
-                    <input type="button" class="desc" onclick="desc('bing')" value="DESCRIPTION"/>
-                </li>
-            </ol>
+        <div id="normalsearch">
+            <h2>Normal Search</h2>
+            <div id="engines">
+                <ol>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank" id="naver" title="Naver">NAVER</a>
+                        <input type="button" class="desc" onclick="desc('Naver')" value="DESCRIPTION"/>
+                    </li>
+                    <li>
+                        <a href="https://google.com" target="_blank" id="google" title="Google">GOOGLE</a>
+                        <input type="button" class="desc" onclick="desc('Google_Search')" value="DESCRIPTION"/>
+                    </li>
+                    <li>
+                        <a href="https://bing.com" target="_blank" id="bing" title="Bing">BING</a>
+                        <input type="button" class="desc" onclick="desc('Microsoft_Bing')" value="DESCRIPTION"/>
+                    </li>
+                </ol>
+            </div>
+            <div id="descinfo">
+                Description from Wikipedia
+            </div>
         </div>
     </main>
 </body>
