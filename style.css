@@ -18,6 +18,10 @@
 .dali {
     font-size: 1.2em;
 }
+
 body {
     background-color: #614219;
+}
+h1 {
+    text-align: center;
 }
